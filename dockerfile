@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 # como directorio de trabajo el directorio raíz del mismo.
 WORKDIR /opt/back_end/chatapp
 COPY . /opt/back_end
-RUN apt-get update && apt-get -y install vim
+#RUN apt-get update && apt-get -y install vim
